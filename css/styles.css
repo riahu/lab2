@@ -14,17 +14,20 @@ body {
 }
 
 p {
-	padding: 10px;
-	font-family: 'Open Sans', sans-serif;
+
 }
 
 .content-box {
-	font-family: 'Boogaloo', sans-serif;
 	margin: 0 auto;
 	width: 80%;
 	padding: 10px;
 	box-shadow: 2px 2px 6px #888;
 	background-color: #FFF;
+}
+
+.booger {
+	font-family: 'Boogaloo', sans-serif;
+	padding: 15px;
 }
 
 .logo { 
@@ -37,15 +40,37 @@ p {
 	padding: 10px;
 }
 
-
 .header {
 	font-size: 36px;
 	color: #116189;
 }
 
 .motto {
+	padding: 5px;
 	font-style: italic;
 	font-size: 120%;
+}
+
+.footer {
+	border-style: solid;
+	border-top: solid #DDD;
+	border-top-width: 2px;
+	font-size: 80%;
+	font-style: italic;
+	clear: both;
+}
+
+h2 {
+	color: #116189;
+	font-weight: bold;
+	font-size: 150%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h3 {
+	color: #116189;
+	font-weight: bold;
 }
 
 
@@ -75,4 +100,13 @@ nav a:visited {
 nav a:hover {
 	background-color: #FF9D45;
 	border-radius: 5px;
+}
+
+a:link,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
 }
