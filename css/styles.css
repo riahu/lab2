@@ -25,11 +25,6 @@ p {
 	background-color: #FFF;
 }
 
-.booger {
-	font-family: 'Boogaloo', sans-serif;
-	padding: 15px;
-}
-
 .logo { 
 	float: left;
 	padding: 10px;
@@ -40,15 +35,18 @@ p {
 	padding: 10px;
 }
 
-.header {
+.title {
+	font-family: 'Boogaloo', sans-serif;
 	font-size: 36px;
 	color: #116189;
+	padding-bottom: 0px;
 }
 
 .motto {
-	padding: 5px;
+	font-family: 'Boogaloo', sans-serif;
 	font-style: italic;
 	font-size: 120%;
+	padding: 2w5px;
 }
 
 .footer {
